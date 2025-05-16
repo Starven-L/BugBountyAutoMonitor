@@ -1,0 +1,182 @@
+{
+    "engagements": [
+        {
+            "name": "NASA美国航空航天局",
+            "engagementCode": "nasa-vdp",
+            "enabled": true,
+            "platform": "bugcrowd",
+            "announcements": {
+                "enabled": true,
+                "lastAnnouncementId": "7bd8df56-e8e0-4110-b046-13ad269d2c8a"
+            },
+            "crowdStream": {
+                "enabled": true,
+                "minimumPriorityNumber": 5,
+                "filterBy": [
+                    "disclosures",
+                    "accepted"
+                ],
+                "lastReportId": "1f167147-6afe-4a58-904d-c4ce2d69a140"
+            },
+            "subdomainMonitor": {
+                "enabled": true,
+                "storeMode": true,
+                "subdomainsDirectory": "scanResults/nasa-vdp",
+                "screenshotEnabled": true,
+                "hideCodes": [
+                    404,
+                    500
+                ],
+                "assets": [
+                    "nasa.gov",
+                    "usgeo.gov",
+                    "scijinks.gov",
+                    "globe.gov"
+                ]
+            }
+        },
+        {
+            "name": "美国国家信用合作社管理局",
+            "engagementCode": "ncua-vdp",
+            "enabled": true,
+            "platform": "bugcrowd",
+            "announcements": {
+                "enabled": true,
+                "lastAnnouncementId": null
+            },
+            "crowdStream": {
+                "enabled": true,
+                "minimumPriorityNumber": 5,
+                "filterBy": [
+                    "disclosures",
+                    "accepted"
+                ],
+                "lastReportId": "108d094e-74dc-4e08-976d-abbbf8b1b263"
+            },
+            "subdomainMonitor": {
+                "enabled": true,
+                "storeMode": true,
+                "subdomainsDirectory": "scanResults/ncua-vdp",
+                "screenshotEnabled": true,
+                "hideCodes": [
+                    404,
+                    500
+                ],
+                "assets": [
+                    "ncua.gov",
+                    "mycreditunion.gov"
+                ]
+            }
+        },
+        {
+            "name": "美国社会保障管理局",
+            "engagementCode": "ssa-vdp",
+            "enabled": true,
+            "platform": "bugcrowd",
+            "announcements": {
+                "enabled": true,
+                "lastAnnouncementId": null
+            },
+            "crowdStream": {
+                "enabled": true,
+                "minimumPriorityNumber": 5,
+                "filterBy": [
+                    "disclosures",
+                    "accepted"
+                ],
+                "lastReportId": "e5efc5c8-604a-4c6b-9d44-ccc4bbc25488"
+            },
+            "subdomainMonitor": {
+                "enabled": true,
+                "storeMode": true,
+                "subdomainsDirectory": "scanResults/ssa-vdp",
+                "screenshotEnabled": true,
+                "hideCodes": [
+                    404,
+                    500
+                ],
+                "assets": [
+                    "ssa.gov",
+                    "segurosocial.gov",
+                    "socialsecurity.gov"
+                ]
+            }
+        },
+        {
+            "name": "美国国土安全部",
+            "engagementCode": "dhs-vdp",
+            "enabled": true,
+            "platform": "bugcrowd",
+            "announcements": {
+                "enabled": true,
+                "lastAnnouncementId": "a81c483f-6f77-416a-a3d2-6d8b44a256d3"
+            },
+            "crowdStream": {
+                "enabled": true,
+                "minimumPriorityNumber": 5,
+                "filterBy": [
+                    "disclosures",
+                    "accepted"
+                ],
+                "lastReportId": "c6a803eb-877b-4bec-b97f-979977a0cf85"
+            },
+            "subdomainMonitor": {
+                "enabled": true,
+                "storeMode": true,
+                "subdomainsDirectory": "scanResults/dhs-vdp",
+                "screenshotEnabled": true,
+                "hideCodes": [
+                    404,
+                    500
+                ],
+                "assets": [
+                    "dhs.gov",
+                    "biometrics.gov",
+                    "cbp.gov",
+                    "cisa.gov",
+                    "cpnireporting.gov",
+                    "cyber.gov",
+                    "cybersecurity.gov",
+                    "disasterassistance.gov",
+                    "dotgov.gov",
+                    "e-verify.gov",
+                    "everify.gov",
+                    "evus.gov",
+                    "fema.gov",
+                    "firstrespondertraining.gov",
+                    "fleta.gov",
+                    "fletc.gov",
+                    "floodsmart.gov",
+                    "get.gov",
+                    "globalentry.gov",
+                    "homelandsecurity.gov",
+                    "ice.gov",
+                    "juntos.gov",
+                    "listo.gov",
+                    "nic.gov",
+                    "niem.gov",
+                    "nmsc.gov",
+                    "power2prevent.gov",
+                    "preventionresourcefinder.gov",
+                    "ready.gov",
+                    "readybusiness.gov",
+                    "safetyact.gov",
+                    "schoolsafety.gov",
+                    "secretservice.gov",
+                    "stopransomware.gov",
+                    "together.gov",
+                    "tsa.gov",
+                    "us-cert.gov",
+                    "uscg.gov",
+                    "uscis.gov",
+                    "usss.gov"
+                ]
+            }
+        }
+    ],
+    "notifications": {
+        "telegram": true,
+        "discord": false
+    },
+    "proxy": "http://127.0.0.1:6666"
+}

@@ -1,0 +1,14 @@
+stateoig.ssp.cisa.dhs.gov
+g-cnmi-eta.cbp.dhs.gov
+serviceportal.cbp.dhs.gov
+pfdps.tsa.dhs.gov
+vulnscan4.cyhy.ncats.cyber.dhs.gov
+www.oig.dhs.gov
+i94.cbp.dhs.gov
+www.dhs.gov
+studyinthestates.dhs.gov
+cyber.dhs.gov
+dhs.gov
+login.casm.dhs.gov
+dev-ocio-github.cisa.dhs.gov
+tsaprecheckbyclear.tsa.dhs.gov
